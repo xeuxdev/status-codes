@@ -1,5 +1,11 @@
 # @xeuxdev/status
 
+## 0.1.1
+
+### Patch Changes
+
+- 6c240c9: Update package readme
+
 ## 0.1.0
 
 ### Minor Changes
