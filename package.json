@@ -1,0 +1,46 @@
+{
+  "name": "@xeuxdev/status",
+  "license": "MIT",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "release": "pnpm run build && changeset publish",
+    "lint": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xeuxdev/status-codes.git"
+  },
+  "keywords": [
+    "Status",
+    "Status Codes",
+    "Node",
+    "Deno",
+    "Bun",
+    "xeuxdev"
+  ],
+  "bugs": {
+    "url": "https://github.com/xeuxdev/status-codes/issues"
+  },
+  "author": {
+    "name": "xeuxdev",
+    "url": "https://github.com/xeuxdev"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
