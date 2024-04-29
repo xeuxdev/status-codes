@@ -1,5 +1,5 @@
 {
-  "name": "@xeuxdev/status",
+  "name": "http-codes",
   "license": "MIT",
   "version": "0.1.1",
   "main": "dist/index.js",
