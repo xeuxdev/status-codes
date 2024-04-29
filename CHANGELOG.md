@@ -1,5 +1,11 @@
 # @xeuxdev/status
 
+## 0.2.0
+
+### Minor Changes
+
+- ea8ec06: change package name to http-codes
+
 ## 0.1.1
 
 ### Patch Changes
