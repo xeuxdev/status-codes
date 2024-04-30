@@ -1,0 +1,8 @@
+tsconfig.json
+index.ts
+**/test.*
+.github/*
+.DS_Store
+.changeset
+.env
+CHANGELOG.md
